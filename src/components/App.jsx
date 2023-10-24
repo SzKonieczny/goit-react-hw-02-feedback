@@ -16,10 +16,10 @@
 // };
 
 import React, { Component } from 'react';
-import { Section } from './section/Section';
-import { FeedbackOptions } from './feedbackOptions/FeedbackOptions';
-import { Statistics } from './statistics/Statistics';
-import { Notification } from './notification/Notification';
+import { Section } from '../components/section/Section';
+import { FeedbackOptions } from '../components/feedbackOptions/FeedbackOptions';
+import { Statistics } from '../components/statistics/Statistics';
+import { Notification } from '../components/notification/Notification';
 
 export class App extends Component {
   state = { good: 0, neutral: 0, bad: 0 };
